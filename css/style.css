@@ -2,7 +2,13 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: #000000;
+  text-align: justify;
+  background-image: url('../img/fondo_1.jpg');
+  color: #ffffff;
 }
+
+#nota{text-align: center;}
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -94,9 +100,11 @@ body {
 .header-bar {
   display: block;
   padding: 5px 10px;
-  color: #fff;
+  color: #000000;
   text-align: left;
-  background-color: #848482;
+  //background-color: #848482;
+  background-image: url('../img/papel.jpg');
+  border-radius: 25px;
 }
 
 .header-bar .address {
@@ -113,6 +121,7 @@ body {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+  padding-top: 15px;
 }
 
 @media (min-width: 768px) {
